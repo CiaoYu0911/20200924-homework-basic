@@ -10,10 +10,9 @@ int main() {
     cin >> item;
     
     for (int i = 0; i < item; i++) {
-        money = 0;
         cout << "請輸入第" << i+1 << "行金額:" ;
         cin >> money;
-        total = total + money;
+        total += money;
     }
-    cout<< "總金額為" << total;
+    cout << "總金額為" << total;
 }
